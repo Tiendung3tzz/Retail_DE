@@ -5,7 +5,13 @@ Welcome to Astronomer! This project was generated after you ran 'astro dev init'
 
 Project Contents
 ================
+## Prerequisites
 
+- Docker
+- Astro CLI
+- Soda
+- GC account
+- 
 Your Astro project contains the following files and folders:
 
 - dags: This folder contains the Python files for your Airflow DAGs. By default, this directory includes one example DAG:
@@ -17,8 +23,18 @@ Your Astro project contains the following files and folders:
 - plugins: Add custom or community plugins for your project to this file. It is empty by default.
 - airflow_settings.yaml: Use this local-only file to specify Airflow Connections, Variables, and Pools instead of entering them in the Airflow UI as you develop DAGs in this project.
 
+# Dataset
+
+https://www.kaggle.com/datasets/tunguz/online-retail
 Deploy Your Project Locally
 ===========================
+![image](https://github.com/user-attachments/assets/6ee9fd18-d70e-4ffe-a88f-40d0b18e88c2)
+
+# Pipeline
+![image](https://github.com/user-attachments/assets/e33d5afd-2286-4e4c-a75f-35eff694a809)
+
+# Data modeling
+![image](https://github.com/user-attachments/assets/1e1efd3e-2724-4df1-b240-4f85ff55f356)
 
 1. Start Airflow on your local machine by running 'astro dev start'.
 
